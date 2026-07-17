@@ -1,0 +1,89 @@
+aid: accel
+name: Accel
+description: >-
+  Accel is one of the world's leading venture capital firms, founded in 1983 by
+  Arthur Patterson and Jim Swartz and headquartered in Palo Alto, California,
+  with additional offices in San Francisco, London, and Bangalore, India. Accel
+  describes itself as "the first partner to exceptional teams everywhere,"
+  backing founders from seed and early stage through growth worldwide. The firm
+  invests across enterprise software and SaaS, consumer, artificial
+  intelligence, fintech, cybersecurity, infrastructure and developer tools,
+  security, media, and healthcare, and operates dedicated funds for the US,
+  Europe/Israel, and India/Southeast Asia. Accel is known for its "prepared
+  mind" investment philosophy and for backing category-defining companies
+  including Facebook, Slack, Dropbox, Atlassian, CrowdStrike, UiPath, Qualtrics,
+  Spotify, Flipkart, Swiggy, Freshworks, 1Password, Vercel, Scale AI, Anthropic,
+  and Perplexity. Its portfolio spans more than 100 unicorns, dozens of IPOs,
+  and hundreds of acquisitions. In 2024 Accel raised a $650M fund for European
+  and Israeli startups, and in 2025 raised a fund for India and Southeast Asia.
+  This profile tracks Accel's identity and its portfolio graph across the API
+  Evangelist network.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+  - Venture Capital
+  - Seed
+  - Early Stage
+  - Growth Equity
+  - Artificial Intelligence
+  - Enterprise
+  - Developer Tools
+  - Cybersecurity
+  - Fintech
+  - Consumer
+  - United States
+  - Global
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/accel/refs/heads/main/apis.yml
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.accel.com/
+  - type: Portfolio
+    url: https://www.accel.com/companies
+  - type: Portfolio
+    url: portfolio/accel-portfolio.yml
+  - type: Team
+    url: https://www.accel.com/team
+  - type: Team
+    url: team/accel-team.yml
+  - type: News
+    url: https://www.accel.com/news
+  - type: Podcast
+    url: https://www.accel.com/podcasts
+  - type: Jobs
+    url: https://jobs.accel.com/
+  - type: Contact
+    url: https://www.accel.com/contact-us
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/accel-vc/
+  - type: Twitter
+    url: https://x.com/accel
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/accel
+  - type: Features
+    data:
+      - "Stage: Seed, Early (Series A), Growth"
+      - "Sectors: enterprise software & SaaS, consumer, AI, fintech, cybersecurity, infrastructure & developer tools, security, media, healthcare"
+      - "Geography: Global (United States, Europe, Israel, India, Southeast Asia)"
+      - "AUM: ~$20B+ (third-party estimate, not firm-published)"
+      - "Founded: 1983"
+      - "Founders: Arthur Patterson, Jim Swartz"
+      - "HQ: Palo Alto, CA"
+      - "Offices: Palo Alto, San Francisco, London, Bangalore"
+      - "Recent funds: $650M Europe/Israel (2024); India/Southeast Asia fund (2025)"
+    sources:
+      - https://www.accel.com/
+      - https://en.wikipedia.org/wiki/Accel_(company)
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Accel
+    url: https://www.accel.com/
