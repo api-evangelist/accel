@@ -2930,7 +2930,7 @@ companies:
   sector: ai
   status: active
   source: https://www.accel.com/companies
-  slug: graphite-dev
+  slug: graphite-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -4260,7 +4260,7 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  slug: mux
+  slug: mux-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -6761,7 +6761,7 @@ companies:
   sector: big-data
   status: unknown
   source: https://www.accel.com/companies
-  slug: sumologic
+  slug: sumo-logic
   in_network: true
   is_api_provider: true
   matched_by: domain
