@@ -2,10 +2,10 @@ generated: '2026-07-17'
 method: searched
 source: https://www.accel.com/companies
 summary:
-  portfolio_total: 767
-  in_network: 767
-  api_providers: 196
-  missing: 0
+  portfolio_total: 764
+  in_network: 719
+  api_providers: 206
+  missing: 45
   stubs_created: 0
 companies:
 - name: 100ms
@@ -111,10 +111,9 @@ companies:
   sector: ai
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: admob
-  matched_by: name-slug
+  suggested_slug: admob
 - name: AdRoll
   url: http://www.adroll.com
   description: Marking platform for e-commerce businesses
@@ -241,7 +240,7 @@ companies:
   source: https://www.accel.com/companies
   slug: algolia
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Ally
   url: http://www.ally.io
@@ -301,7 +300,7 @@ companies:
   source: https://www.accel.com/companies
   slug: amobee
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Ampool
   url: http://www.ampool-inc.com
@@ -616,10 +615,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: avenue
-  matched_by: name-slug
+  x-name-collision: avenue
+  suggested_slug: useavenue-com
 - name: Avito
   url: http://www.avito.ru
   description: Online platform for free classified advertisements in Russia
@@ -731,10 +730,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: beam
-  matched_by: name-slug
+  x-name-collision: beam
+  suggested_slug: usebeam-co
 - name: Beek
   url: https://beek.io/
   description: Audio platform in Latin America
@@ -753,10 +752,10 @@ companies:
   stage: series-a
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: bereal
-  matched_by: name-slug
+  x-name-collision: bereal
+  suggested_slug: bere-al
 - name: BestDoc
   url: https://www.bestdocapp.com/
   description: Intelligent patient relationship management (PRM) system
@@ -955,10 +954,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: bounce
-  matched_by: name-slug
+  x-name-collision: bounce
+  suggested_slug: bounceinfinity-com
 - name: Braintree
   url: http://www.braintreepayments.com
   description: Global payment solutions
@@ -966,10 +965,10 @@ companies:
   stage: series-a
   status: unknown
   source: https://www.accel.com/companies
-  slug: braintree
+  slug: paypal
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
 - name: Breathe Well-being
   url: https://www.breathewellbeing.in/
   description: Diabetes reversal and chronic care management company
@@ -1032,7 +1031,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: mensabrands
+  slug: mensa-brands
   matched_by: domain
 - name: BrowserStack
   url: http://www.browserstack.com
@@ -1243,10 +1242,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: catalyst
-  matched_by: name-slug
+  x-name-collision: catalyst
+  suggested_slug: getcatalyst-io
 - name: Catawiki
   url: http://www.catawiki.com
   description: Online catalogue and auction house for collectibles
@@ -1307,7 +1306,7 @@ companies:
   status: active
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: centaur-labs
   matched_by: domain
 - name: Centrify
@@ -1317,7 +1316,7 @@ companies:
   status: unknown
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: centrify
   matched_by: domain
 - name: Chainalysis
@@ -1492,7 +1491,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: coast-fka-vayu
+  slug: coast
   matched_by: domain
 - name: Code 42
   url: http://www.code42.com
@@ -1557,7 +1556,7 @@ companies:
   source: https://www.accel.com/companies
   slug: cohesity
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: CoinTracker
   url: https://www.cointracker.io/
@@ -1664,7 +1663,7 @@ companies:
   slug: cornershop
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Couchbase
   url: http://www.couchbase.com
   description: No-SQL database for business-critical applications
@@ -1758,10 +1757,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cultfit
-  matched_by: name-slug
+  x-name-collision: cultfit
+  suggested_slug: cure-fit
 - name: Curefoods
   url: https://curefoods.in/
   description: Sustainable cloud kitchen service
@@ -1873,10 +1872,10 @@ companies:
   stage: series-a
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: decisionlink
-  matched_by: name-slug
+  x-name-collision: decisionlink
+  suggested_slug: decisionlink-com
 - name: Deep Rooted
   url: http://www.clover.ag/
   description: Demand-backed supply chain for perishables
@@ -1884,10 +1883,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: deep-rooted
-  matched_by: name-slug
+  x-name-collision: deep-rooted
+  suggested_slug: clover-ag
 - name: DeepMap
   url: http://www.deepmap.ai
   description: HD mapping and localization
@@ -1984,7 +1983,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: detect-technologies
+  slug: detect
   matched_by: domain
 - name: Dezerv
   url: https://www.dezerv.in/
@@ -2087,10 +2086,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: dovetail
-  matched_by: name-slug
+  x-name-collision: dovetail
+  suggested_slug: dovetailapp-com
 - name: Drip Capital
   url: http://www.dripcapital.com
   description: Trade financing platform
@@ -2171,7 +2170,7 @@ companies:
   status: active
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: eagle-eye-networks
   matched_by: domain
 - name: Ecosoul
@@ -2203,10 +2202,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  slug: edgedb
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: edgedb
+  suggested_slug: edgedb-com
 - name: EduPristine
   url: http://www.edupristine.com/
   description: Classroom and online training for certifications.
@@ -2236,10 +2235,10 @@ companies:
   stage: series-a
   status: unknown
   source: https://www.accel.com/companies
-  slug: elements
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: elements
+  suggested_slug: elements-io
 - name: Ema
   url: https://ema.co
   description: GenAI workflow engine
@@ -2289,10 +2288,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ethos
-  matched_by: name-slug
+  x-name-collision: ethos
+  suggested_slug: getethos-com
 - name: Etsy
   url: http://www.etsy.com
   description: E-commerce platform for buying and selling vintage and handmade goods
@@ -2612,10 +2611,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  slug: fortify
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: fortify
+  suggested_slug: 3dfortify-com
 - name: Fortigo
   url: http://www.4tigo.com
   description: Fleet management service for truck owners
@@ -2731,27 +2730,26 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: fuse-energy
+  slug: fuse
   matched_by: domain
 - name: Fusion-io
   description: Flash memory technology design and manufacturing
   sector: manufacturing
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fusion-io
-  matched_by: name-slug
+  suggested_slug: fusion-io
 - name: G2
   url: http://www.g2crowd.com
   description: Software marketplace with peer reviews
   sector: marketplaces
   status: active
   source: https://www.accel.com/companies
-  slug: g2
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: g2
+  suggested_slug: g2crowd-com
 - name: Galileo
   url: http://www.galileo-ft.com
   description: Payment processing solutions platform
@@ -2796,17 +2794,6 @@ companies:
   is_api_provider: false
   slug: gamma
   matched_by: domain
-- name: Gel Data
-  url: https://www.edgedb.com/
-  description: Open-source graph-relational database
-  sector: open-source
-  stage: seed
-  status: active
-  source: https://www.accel.com/companies
-  in_network: true
-  is_api_provider: false
-  slug: gel-data
-  matched_by: name-slug
 - name: Gem
   url: http://www.gem.com
   description: All-in-one recruiting platform
@@ -2835,10 +2822,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.accel.com/companies
-  slug: genesis
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: genesis
+  suggested_slug: genesis-global
 - name: Gently
   url: https://www.gently.co.id/
   description: Personal care brand for infants and children
@@ -2846,7 +2833,7 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  slug: erudifi
+  slug: actavis
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -2857,7 +2844,7 @@ companies:
   status: active
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: gloat
   matched_by: domain
 - name: GlowRoad
@@ -2899,7 +2886,7 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  slug: classy-org
+  slug: gofundme
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2920,10 +2907,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: govini
-  matched_by: name-slug
+  x-name-collision: govini
+  suggested_slug: govini-com
 - name: Graphite
   url: https://www.graphite.dev/
   description: AI-powered solution for code review and pull request management
@@ -3125,7 +3112,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: hoteltonight
+  slug: hotel-tonight
   matched_by: domain
 - name: Hotelogix
   url: http://www.hotelogix.com
@@ -3165,10 +3152,10 @@ companies:
   stage: seed
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: hubble
-  matched_by: name-slug
+  x-name-collision: hubble
+  suggested_slug: hubble-net
 - name: Hudl
   url: http://www.hudl.com
   description: Video analysis and coaching tools for sports teams
@@ -3325,7 +3312,7 @@ companies:
   status: active
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: invoca
   matched_by: domain
 - name: Invoice 2go
@@ -3487,7 +3474,7 @@ companies:
   stage: seed
   status: unknown
   source: https://www.accel.com/companies
-  slug: kernel-so
+  slug: kernel
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -3598,7 +3585,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: kry
+  slug: kry-livi
   matched_by: domain
 - name: KupiVIP
   url: http://www.kupivip.ru
@@ -3628,10 +3615,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: leap
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: leap
+  suggested_slug: leapwallet-io
 - name: Learnvest
   url: http://www.learnvest.com
   description: Personal financial planning services ‍
@@ -3662,7 +3649,7 @@ companies:
   status: unknown
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   slug: legendary
   matched_by: domain
 - name: Legion
@@ -3704,10 +3691,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: letsventure
-  matched_by: name-slug
+  x-name-collision: letsventure
+  suggested_slug: letsventure-com
 - name: Lica
   url: https://www.lica.world/
   description: Generative AI for podcasts and videos
@@ -3768,7 +3755,7 @@ companies:
   sector: productivity
   status: active
   source: https://www.accel.com/companies
-  slug: linear
+  slug: acceptance-criteria
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -3854,10 +3841,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: lucid-lane
-  matched_by: name-slug
+  x-name-collision: lucid-lane
+  suggested_slug: lucidlane-com
 - name: Luciq
   url: https://www.luciq.ai/
   description: Mobile app testing services for developers
@@ -4101,7 +4088,7 @@ companies:
   source: https://www.accel.com/companies
   slug: mindtickle
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Minoan
   url: https://www.minoanexperience.com/
@@ -4110,10 +4097,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: minoan
-  matched_by: name-slug
+  x-name-collision: minoan
+  suggested_slug: minoanexperience-com
 - name: Mirana Toys
   url: https://miranatoys.com/
   description: Electronic toy manufacturing company
@@ -4144,7 +4131,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: misfits-market-fka-imperfect-foods
+  slug: misfits-market
   matched_by: domain
 - name: Modal
   url: https://modal.com/
@@ -4152,9 +4139,9 @@ companies:
   sector: ai
   status: active
   source: https://www.accel.com/companies
-  slug: modal
+  slug: modal-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Model N
   url: http://www.modeln.com
@@ -4195,10 +4182,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: monarch-money
-  matched_by: name-slug
+  x-name-collision: monarch-money
+  suggested_slug: monarchmoney-com
 - name: Money View
   url: http://www.moneyview.in
   description: Mobile-first personal finance management
@@ -4208,7 +4195,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: moneyview
+  slug: money-view
   matched_by: domain
 - name: Monte Carlo
   url: https://www.montecarlodata.com/
@@ -4323,10 +4310,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: mywear
-  matched_by: name-slug
+  x-name-collision: mywear
+  suggested_slug: mywearstore-com
 - name: Myxt
   url: https://myxt.com/
   description: Music mangement platform
@@ -4430,7 +4417,7 @@ companies:
   source: https://www.accel.com/companies
   slug: netskope
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: New Relic
   url: http://www.newrelic.com
@@ -4503,10 +4490,10 @@ companies:
   stage: seed
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: nines
-  matched_by: name-slug
+  x-name-collision: nines
+  suggested_slug: nines-com
 - name: Ninjacart
   url: https://ninjacart.com/
   description: Fresh produce supply chain solutions
@@ -4534,7 +4521,7 @@ companies:
   status: unknown
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: noosh
   matched_by: domain
 - name: Northpoint Communications
@@ -4584,10 +4571,10 @@ companies:
   stage: series-a
   status: unknown
   source: https://www.accel.com/companies
-  slug: nuitee
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: nuitee
+  suggested_slug: nuitee-com
 - name: Nurix AI
   url: https://www.nurix.ai/
   description: AI design and implementation partner
@@ -4618,7 +4605,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: oasis
+  slug: oasis-security
   matched_by: domain
 - name: Octarine
   url: http://www.octarinesec.com
@@ -4692,7 +4679,7 @@ companies:
   status: active
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: opal
   matched_by: domain
 - name: OpenFX
@@ -4906,7 +4893,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: periodic
+  slug: periodic-labs
   matched_by: domain
 - name: PermitFlow
   url: http://www.permitflow.com/
@@ -4945,10 +4932,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: pharmaccx
-  matched_by: name-slug
+  x-name-collision: pharmaccx
+  suggested_slug: pharmaccx-com
 - name: PhaseV
   url: https://www.phasevtrials.com/
   description: vertical AI/ML platform to optimise & analyse the clinical development process
@@ -5036,7 +5023,7 @@ companies:
   source: https://www.accel.com/companies
   slug: podium
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Poggio Labs
   url: https://poggiolabs.com/
@@ -5045,10 +5032,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: poggio-labs
-  matched_by: name-slug
+  x-name-collision: poggio-labs
+  suggested_slug: poggiolabs-com
 - name: Pointfive
   url: https://www.pointfive.co/
   description: Cloud and AI infrastructure management platform
@@ -5129,10 +5116,9 @@ companies:
   sector: enterprise
   status: unknown
   source: https://www.accel.com/companies
-  slug: port
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
+  in_network: false
+  is_api_provider: false
+  suggested_slug: port
 - name: Portal Software
   url: http://www.portal.com
   description: Telecommunications billing and customer management software
@@ -5161,10 +5147,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: posha
-  matched_by: name-slug
+  x-name-collision: posha
+  suggested_slug: eatwithnymble-com
 - name: Power2SME
   url: http://www.power2sme.com
   description: B2B marketplace for SMEs
@@ -5290,10 +5276,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: probe-information
-  matched_by: name-slug
+  x-name-collision: probe-information
+  suggested_slug: probeinformation-com
 - name: Process Street
   url: http://www.process.st
   description: Business process workflow optimization platform for teams
@@ -5334,10 +5320,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: projectdiscovery
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: projectdiscovery
+  suggested_slug: mimecast-com
 - name: Propeller Aero
   url: http://www.propelleraero.com/
   description: 3D drone mapping and analytics for worksites
@@ -5399,10 +5385,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: qikpod
-  matched_by: name-slug
+  x-name-collision: qikpod
+  suggested_slug: qikpod-com
 - name: Qlik
   url: http://www.qlikview.com
   description: Data analytics and business intelligence platform
@@ -5410,10 +5396,10 @@ companies:
   stage: series-a
   status: unknown
   source: https://www.accel.com/companies
-  slug: qlik
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: qlik
+  suggested_slug: qlikview-com
 - name: QMC
   url: http://www.qmctelecom.com.br
   description: Puerto Rico-based wireless cellular telecommunication tower provider
@@ -5444,7 +5430,7 @@ companies:
   source: https://www.accel.com/companies
   slug: brandwatch
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: QTalk
   url: http://www.quiph.com
@@ -5569,7 +5555,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: rally-rd
+  slug: rally
   matched_by: domain
 - name: RapidCanvas
   url: https://www.rapidcanvas.ai/
@@ -5708,7 +5694,7 @@ companies:
   sector: payments
   status: active
   source: https://www.accel.com/companies
-  slug: remote
+  slug: remote-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -5730,7 +5716,7 @@ companies:
   status: unknown
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: responsys
   matched_by: name-slug
 - name: RetainIQ
@@ -5762,10 +5748,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: rhythms
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: rhythms
+  suggested_slug: getrhythms-ai
 - name: Rigi
   url: https://app.rigi.club/
   description: Digital community for creators to manage and monetize their community and fanbase
@@ -5818,7 +5804,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: rovio
+  slug: rovio-entertainment
   matched_by: domain
 - name: Rows
   url: http://www.rows.com
@@ -6108,10 +6094,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  slug: sense
+  slug: sense-talent-labs
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
 - name: Sentry
   url: http://www.sentry.io
   description: Application monitoring and error tracking software
@@ -6119,7 +6105,7 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  slug: sentry
+  slug: sentry-system
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -6303,15 +6289,15 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: skipjaq
-  matched_by: name-slug
+  slug: skyscanner
+  matched_by: domain
 - name: Sky Mavis
   url: https://skymavis.com/
   description: Blockchain-based battle game & community
   sector: gaming
   status: active
   source: https://www.accel.com/companies
-  slug: ronin-network
+  slug: axie-infinity
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -6366,10 +6352,10 @@ companies:
   stage: series-a
   status: unknown
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: smashgg
-  matched_by: name-slug
+  x-name-collision: smashgg
+  suggested_slug: smash-gg
 - name: Snaptrude
   url: https://www.snaptrude.com/
   description: Automated 3D design software for architects
@@ -6590,10 +6576,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: sprig
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: sprig
+  suggested_slug: userleap-com
 - name: SpringSource
   url: http://www.springsource.com
   description: Java application framework
@@ -6761,9 +6747,9 @@ companies:
   sector: big-data
   status: unknown
   source: https://www.accel.com/companies
-  slug: sumo-logic
+  slug: sensu
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Sunrun
   url: http://www.sunrun.com
@@ -6847,7 +6833,7 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  slug: swan
+  slug: swan-io
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -6991,17 +6977,6 @@ companies:
   is_api_provider: false
   slug: taxdoo
   matched_by: domain
-- name: Taxi For Sure
-  url: http://www.olacabs.com/
-  description: Rental car and taxi aggregator
-  sector: consumer
-  stage: seed
-  status: unknown
-  source: https://www.accel.com/companies
-  slug: ola
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Teabox
   url: http://www.teabox.com
   description: India-based online tea store
@@ -7065,8 +7040,8 @@ companies:
   status: unknown
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
-  slug: tessl
+  is_api_provider: true
+  slug: tesslio
   matched_by: domain
 - name: Testsigma
   url: https://testsigma.com/
@@ -7086,10 +7061,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: teya
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: teya
+  suggested_slug: saltpay-co
 - name: The Lafz
   url: https://thelafz.com
   description: Halal compliant personal care products
@@ -7162,7 +7137,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: titan
+  slug: titan-invest
   matched_by: domain
 - name: Tolmo
   url: https://tolmo.com/
@@ -7214,10 +7189,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: tracxn
-  matched_by: name-slug
+  x-name-collision: tracxn
+  suggested_slug: traxcn-com
 - name: Trade Republic
   url: https://traderepublic.com/
   description: Mobile-first brokerage and investment platform ‍
@@ -7246,7 +7221,7 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  slug: transitapp
+  slug: transit
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -7257,10 +7232,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: travelstop
-  matched_by: name-slug
+  x-name-collision: travelstop
+  suggested_slug: travelstop-com
 - name: Trifacta
   url: http://www.trifacta.com
   description: AI-powered data cleaning and preparation platform
@@ -7343,7 +7318,7 @@ companies:
   source: https://www.accel.com/companies
   slug: trustarc
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Turbine
   url: https://turbine.ai/
@@ -7419,24 +7394,15 @@ companies:
   is_api_provider: false
   slug: uni
   matched_by: domain
-- name: Uniqode
-  url: http://www.mobstac.com
-  description: QR Code generator for businesses
-  status: active
-  source: https://www.accel.com/companies
-  in_network: true
-  is_api_provider: false
-  slug: uniqode
-  matched_by: domain
 - name: Unit
   url: https://www.unit.co/
   description: Financial infrastructure platform for tech companies
   sector: fintech
   status: active
   source: https://www.accel.com/companies
-  slug: unit
+  slug: patch-io
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: UnitQ
   url: https://www.unitq.com/
@@ -7497,10 +7463,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: uspl-wrogn
-  matched_by: name-slug
+  x-name-collision: uspl-wrogn
+  suggested_slug: usplworld-com
 - name: UUNET Technologies
   description: ommercial Internet service provider
   stage: series-a
@@ -7583,7 +7549,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: vega
+  slug: vega-security
   matched_by: domain
 - name: Venmo
   url: http://www.venmo.com
@@ -7665,10 +7631,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: viktor
-  matched_by: name-slug
+  x-name-collision: viktor
+  suggested_slug: getviktor-com
 - name: Vinculum
   url: http://www.vinculumgroup.com
   description: Omnichannel retailing for SaaS-based products
@@ -7795,10 +7761,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: weaveworks
-  matched_by: domain
+  x-name-collision: weaveworks
+  suggested_slug: weave-works
 - name: Webflow
   url: http://www.webflow.com
   description: AI-powered website experience platform
@@ -7925,7 +7891,7 @@ companies:
   source: https://www.accel.com/companies
   in_network: true
   is_api_provider: false
-  slug: worldview
+  slug: world-view
   matched_by: domain
 - name: WyzAnt
   url: http://www.wyzant.com
@@ -7988,7 +7954,7 @@ companies:
   status: active
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: decisionlink
   matched_by: domain
 - name: YapStone
@@ -8071,10 +8037,10 @@ companies:
   stage: seed
   status: active
   source: https://www.accel.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: zepz
-  matched_by: name-slug
+  x-name-collision: zepz
+  suggested_slug: zepzpay-com
 - name: Zetwerk
   url: http://www.zetwerk.com
   description: On-demand manufacturing marketplace for machine components
@@ -8116,7 +8082,7 @@ companies:
   status: active
   source: https://www.accel.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: zoca
   matched_by: domain
 - name: Zolve
