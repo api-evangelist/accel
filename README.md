@@ -1,4 +1,4 @@
-# accel
+# Accel
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -63,3 +63,33 @@
 >
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
+
+Accel is one of the world's leading venture capital firms, founded in 1983 by Arthur Patterson and Jim Swartz and headquartered in Palo Alto, California, with additional offices in San Francisco, London, and Bangalore, India. Accel describes itself as "the first partner to exceptional teams everywhere," backing founders from seed and early stage through growth worldwide. The firm invests across enterprise software and SaaS, consumer, artificial intelligence, fintech, cybersecurity, infrastructure and developer tools, security, media, and healthcare, and operates dedicated funds for the US, Europe/Israel, and India/Southeast Asia. Accel is known for its "prepared mind" investment philosophy and for backing category-defining companies including Facebook, Slack, Dropbox, Atlassian, CrowdStrike, UiPath, Qualtrics, Spotify, Flipkart, Swiggy, Freshworks, 1Password, Vercel, Scale AI, Anthropic, and Perplexity. Its portfolio spans more than 100 unicorns, dozens of IPOs, and hundreds of acquisitions. In 2024 Accel raised a $650M fund for European and Israeli startups, and in 2025 raised a fund for India and Southeast Asia. This profile tracks Accel's identity and its portfolio graph across the API Evangelist network.
+
+**Areas:** Venture Capital · Seed · Early Stage · Growth Equity · Artificial Intelligence · Enterprise · Developer Tools · Cybersecurity · Fintech · United States · Global
+
+## Accel on APIs.io
+
+Everything profiled for Accel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/accel/](https://apis.io/providers/accel/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.accel.com/)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/accel/](https://apis.io/providers/accel/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Accel: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/accel/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
